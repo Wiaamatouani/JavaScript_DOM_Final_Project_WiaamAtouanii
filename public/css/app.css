@@ -11920,11 +11920,13 @@ button {
   width: 25%;
 }
 
-@media (max-width: 428px) {
-  nav {
-    opacity: 0;
-  }
+nav {
+  height: 50px;
 }
+nav .nav-link {
+  opacity: 0;
+}
+
 * {
   margin: 0;
   padding: 0;
