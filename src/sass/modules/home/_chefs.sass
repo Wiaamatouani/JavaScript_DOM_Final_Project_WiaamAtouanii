@@ -1,0 +1,164 @@
+.sec8
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    padding: 5vh 7vw
+    gap: 5vh
+    .sec8-header
+        text-align: center
+        p
+            color: #5f6265
+            font-size: 16px
+            font-family: "Roboto", sans-serif
+        h1
+            font-family: "Amatic SC", sans-serif
+            font-size: 48px
+            span
+                font-family: "Amatic SC", sans-serif
+                color: #ce1212
+    .sec8-content
+        display: flex
+        align-items: center
+        gap: 3vw
+        .card
+            border: none
+            box-shadow: 10px 10px 10px #aaaaaab5
+            &:hover
+                transform: scale(1.1)
+                transition: 0.6s
+            .card-img
+                width: 25vw
+                height: 55vh
+                position: relative
+                img
+                    position: absolute
+                    bottom: 0
+            .card-content
+                padding: 30px
+                text-align: center
+                h5
+                    color: #5f6265
+                p
+                    color: #5f6265
+.chef1
+    background-image: url(../images/chefs/chefs-1.jpg)
+    background-size: cover
+    background-repeat: no-repeat
+.chef2
+    background-image: url(../images/chefs/chefs-2.jpg)
+    background-size: cover
+    background-repeat: no-repeat
+.chef3
+    background-image: url(../images/chefs/chefs-3.jpg)
+    background-size: cover
+    background-repeat: no-repeat
+.book-table
+    .book-title
+        
+        h6
+            font-family: "Roboto", sans-serif
+            padding: 20px
+            font-size: 14px
+            
+        h1
+            font-family: "Amatic SC", sans-serif
+            padding: 30px
+            font-size: 48px
+            
+
+    
+    .reservation-container
+        
+        display: flex
+        align-items: center
+        gap: 3vw
+        flex-direction: row
+        padding: 40px
+        
+        
+        .reservation-image
+            
+            img
+                width: 500px
+                height: 600px
+        .form-container
+            flex-direction: column
+             
+            .form-one
+                input
+                    width: 204px
+                    height: 43px
+                    margin: 6px
+                    
+            .form-two
+                input
+                    width: 204px
+                    height: 43px
+                    margin: 6px
+            textarea
+                width: 685px
+                height: 127px
+                margin: 10px
+            button
+                display: flex
+                align-items: center
+                margin-left: 18vw
+                
+
+
+@media (max-width: 428px)
+    .book-table
+        .reservation-container
+            flex-direction: column
+            .reservation-image
+                img
+                    width: 400px
+                    height: 300px
+                    margin: 17px
+            .form-container
+                display: flex
+                flex-direction: column
+                .form-one
+                    input
+                        display: flex
+                        align-items: center
+                        flex-direction: column
+                        width: 400px
+                   
+                .form-two
+                    input
+                        display: flex
+                        align-items: center
+                        flex-direction: column
+                        width: 400px
+                    
+                textarea
+                    flex-direction: column
+                    width: 100%
+                    display: flex
+                    align-items: center
+                    width: 400px
+                button
+                    width: 200px
+                    align-items: center
+                    justify-content: center
+                    
+        
+
+
+                
+
+
+        
+    .sec8
+        .sec8-content
+            flex-direction: column
+            .card
+                .card-img
+                    width: 90vw
+                    height: 70vh
+                .card-content
+                    display: block
+                    flex-direction: coulum
+                    

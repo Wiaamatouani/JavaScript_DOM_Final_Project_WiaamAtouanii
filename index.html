@@ -20,13 +20,14 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Calistoga&family=Noto+Serif+Khitan+Small+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Glitch+Pop&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="stylesheet" href="./public/css/app.css">
 </head>
 
 <body>
     <nav>
         <h1>Yummy<span>.</span></h1>
-        <div class="navbar-nav ">
+        <div class="navbar-na">
             <a class="nav-link" href="#home">Home</a>
             <a class="nav-link" href="#about">About</a>
             <a class="nav-link" href="#menu">Menu</a>
@@ -39,7 +40,7 @@
 
     </nav>
     <div id="testModal" class="backdrop">
-        <div class="modal">
+        <div class="modal-weam">
             <div class="modal-title">
                 <h2>login</h2>
 
@@ -53,7 +54,7 @@
 
         </div>
     </div>
-    
+
     <!--home-section-->
     <div class="home" id="home">
         <div>
@@ -64,16 +65,15 @@
             <p class="p-home">We are team of talented designers making websites with <br>Handmade</p>
             <div class="btns-home">
                 <a class="btn-home">Book a table</a>
-                <a class="btn-vd-home" href=""><i></i><span>Watch this vedio</span></a>
+                <a class="btn-vd-home" href=""><i class="bi bi-play-circle"></i>Watch this vedio</a>
             </div>
         </div>
         <div class="img-hero">
             <img src="./public/images/hero-img.png" alt="">
         </div>
     </div>
-
     <!--About-->
-      <div class="about-section" id="about">
+    <div class="about-section" id="about">
         <div class="title">
             <h2 class="h2-about">About Us</h2>
             <p class="p-class">Learn More <span>About Us</span></p>
@@ -90,14 +90,17 @@
                 <p class="p-one">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br>eiusmod tempor
                     incididunt ut labore et dolore magna aliqua.
                 </p>
-  <ul>
-                    <li> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                    <li>Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                    <li> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis<br> aute irure dolor in
+                <ul>
+                    <li> <i class="fa-solid fa-circle-check"></i>Ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat.</li>
+                    <li><i class="fa-solid fa-circle-check"></i>Duis aute irure dolor in reprehenderit in voluptate
+                        velit.</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis<br> aute irure dolor in
                         reprehenderit
                         in voluptate trideta<br> storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
                 </ul>
-                <p class="p-two"> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis<br> aute irure dolor in
+                <p class="p-two"> Ullamco laboris nisi ut aliquip ex ea commodo <br> consequat. Duisaute irure dolor in
                     reprehenderit in voluptate velit esse cillum dolore<br> eu fugiat nulla pariatur. Excepteur sint
                     occaecat cupidatat non<br> proident</p>
                 <div class="img-about2">
@@ -105,11 +108,9 @@
                 </div>
             </div>
         </div>
-              
+        <!--section into about-->
 
-    <!--section into about-->
-   
-         <div class="into-about">
+        <div class="into-about">
 
             <div class="cards">
                 <div class="card1">
@@ -124,20 +125,24 @@
                     <a class="btn-learn">Learn More > </a>
                 </div>
                 <div class="card2">
+                    <i class="fa-regular fa-clipboard "></i>
+
                     <h4>Corporis voluptates<br> officia eiusmod</h4>
                     <p>Consequuntur sunt aut quasi<br> enim aliquam quae harum<br> pariatur laboris nisi ut aliquip</p>
                 </div>
                 <div class="card3">
+                    <i class="fa-regular fa-gem"></i>
                     <h4>Ullamco laboris ladore<br> lore pan</h4>
                     <p>Excepteur sint occaecat <br>cupidatat non proident, sunt in<br> culpa qui officia deserunt</p>
                 </div>
                 <div class="card4">
+                    <i class="fa-solid fa-inbox"></i>
                     <h4>Labore consequatur<br> incidid dolore</h4>
                     <p>Aut suscipit aut cum nemo <br>deleniti aut omnis. Doloribus ut<br> maiores omnis facere</p>
                 </div>
             </div>
-             <div class="img-cards">
-                <img src="./stats-bg.jpg" width="100%" height="400px" alt="">
+            <div class="img-cards">
+                <!-- <img src="./stats-bg.jpg" width="100%" height="400px" alt=""> -->
                 <div class="content">
                     <div class="span"><span>232</span>
                         <p> Clients</p>
@@ -154,13 +159,9 @@
                 </div>
 
             </div>
-           
+
         </div>
     </div>
-
-
-
-
     <!--menu-->
     <div class="menu" id="menu">
         <div class="menu-title">
@@ -168,29 +169,23 @@
             <p class="p-class">Check Our <span>Yummy Menu</span></p>
         </div>
         <div class="menu-link">
-            <div class="parent">
-
-                <h4 class="menu-btn">Starters </h4>
-
-
-                <h4 class="menu-btn">Breakfast</h4>
-
-
-                <h4 class="menu-btn"> Lunch</h4>
-
-
-                <h4 class="menu-btn"> Dinner</h4>
-
+            <div class="menu-content">
+                <div class="menu-Buttons text-center">
+                    <button id="starters">Starters</button>
+                    <button id="breakfast">Breakfast</button>
+                    <button id="lunch">Lunch</button>
+                    <button id="dinner">Dinner</button>
             </div>
-            <div class="child">
-                <p>Menu</p>
-                <h4 class="x">Starters</h4>
-            </div>
+          
         </div>
 
 
     </div>
     <div class="menu-img">
+       
+            <p>Menu</p>
+            <h4 class="x">Starters</h4>
+        
         <div class="side-one">
             <div class="one-img"><img src="./menu/menu-item-1.png" alt="">
                 <div class="info-menu">
@@ -239,44 +234,347 @@
             </div>
         </div>
     </div>
-    
 
-    
+
     <!--carousel-menu-->
-     <div id="carousel1" class="menu-carousel">
-
-        <div class="carousel">
-            <div class="slide">
-
-                <div class="title-carousel">
-                    <h2>TESTIMONIALS</h2>
-                    <p>What Are They <span>Saying About Us</span> </p>
-                </div>
-                <div class="content-carousel">
-                    <div class="colum1">
-                        <p> Proin iaculis purus consequat sem cure digni ssim donec porttitora<br> entum
-                            suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam<br> eget nibh et.
-                            Maecen aliquam, risus at semper.</p>
-                        <h3>Saul Goodman</h3>
-                        <p>Ceo & Founder</p>
+    <!---->
+    <div class="sec6">
+        <div class="sec6-header">
+            <p>TESTIMONIALS</p>
+            <h1>What Are They<span>Saying About Us</span></h1>
+        </div>
+        <div id="carousel1" autoslide="on" class="sec6-carousel">
+            <div class="box-carousel">
+                <div class="slide">
+                    <div class="content">
+                        <div class="content-text">
+                            <h6>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit
+                                rhoncus. Accusantium quam, ultricies
+                                eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</h6>
+                            <h3>Saul Goodman</h3>
+                            <span>Ceo & Founder</span>
+                        </div>
+                        <div class="content-img">
+                            <img width="100%" src="./public/images/testimonials/testimonials-1.jpg" alt="">
+                        </div>
                     </div>
-                    <div class="colum2"><img src="./testimonials/testimonials-1.jpg" alt=""></div>
                 </div>
-            </div>
-            <div class="slide">
-            </div>
-            <div class="slide">
-            </div>
-            <div class="slide">
-                <img src="./public/images/casa.jpeg" alt="">
+                <div class="slide">
+                    <div class="content">
+                        <div class="content-text">
+                            <h6>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid
+                                cillum eram malis quorum velit fore
+                                eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</h6>
+                            <h3>Sara Wilsson</h3>
+                            <span>Designer</span>
+                        </div>
+                        <div class="content-img">
+                            <img width="100%" src="./public/images/testimonials/testimonials-2.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="content">
+                        <div class="content-text">
+                            <h6>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam
+                                duis minim tempor labore quem
+                                eram duis noster aute amet eram fore quis sint minim.</h6>
+                            <h3>Jena Karlis</h3>
+                            <span>Store Owner</span>
+                        </div>
+                        <div class="content-img">
+                            <img width="100%" src="./public/images/testimonials/testimonials-3.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="content">
+                        <div class="content-text">
+                            <h6>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat
+                                minim velit minim dolor enim duis
+                                veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</h6>
+                            <h3>John Larson</h3>
+                            <span>Entrepreneur</span>
+                        </div>
+                        <div class="content-img">
+                            <img width="100%" src="./public/images/testimonials/testimonials-4.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <button carouselBtn="carousel1" class="next">next</button>
             </div>
         </div>
 
-        <button carouselBtn="carousel1" class="previous">Previous</button>
-        <button carouselBtn="carousel1" class="next">Next</button>
     </div>
+
+    <!--events-->
+
+    <!--  <div class="events">
+       
+        <div id="carousel2" autoslide="on" class="events-carousel">
+            <div class="box-carousel">
+                <div class="slide">
+                    <div class="content">
+                        <div class="content-text">
+                            <h6>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit
+                                rhoncus. Accusantium quam, ultricies
+                                eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</h6>
+                            <h3>Saul Goodman</h3>
+                            <span>Ceo & Founder</span>
+                        </div>
+                        <div class="content-img">
+                            <img width="100%" src="./public/images/events/events-1.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="content">
+                        <div class="content-text">
+                            <h6>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid
+                                cillum eram malis quorum velit fore
+                                eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</h6>
+                            <h3>Sara Wilsson</h3>
+                            <span>Designer</span>
+                        </div>
+                        <div class="content-img">
+                            <img width="100%" src="./public/images/events/events-2.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="content">
+                        <div class="content-text">
+                            <h6>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam
+                                duis minim tempor labore quem
+                                eram duis noster aute amet eram fore quis sint minim.</h6>
+                            <h3>Jena Karlis</h3>
+                            <span>Store Owner</span>
+                        </div>
+                        <div class="content-img">
+                            <img width="100%" src="./public/images/events/events-3.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="content">
+                        <div class="content-text">
+                            <h6>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat
+                                minim velit minim dolor enim duis
+                                veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</h6>
+                            <h3>John Larson</h3>
+                            <span>Entrepreneur</span>
+                        </div>
+                        <div class="content-img">
+                            <img width="100%" src="./public/images/events/events-4.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <button carouselBtn="carousel1" class="next">next</button>
+            </div>
+        </div>
+
+    </div>-->
+
+
+
+
+
+    <!--chefs-->
+
+    <div class="sec8" id="chefs">
+        <div class="sec8-header">
+            <p>chefs</p>
+            <h1>Our<span>Proffesional Chefs</span></h1>
+        </div>
+        <div class="sec8-content">
+            <div class="card">
+                <div class="card-img chef1">
+                    <img width="100%" src="./public/images/team-shape.svg" alt="">
+                </div>
+                <div class="card-content">
+                    <h2>Walter White</h2>
+                    <h5>Master Chef</h5>
+                    <p>Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum
+                        exercitationem iure minima
+                        enim corporis et voluptate.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img chef2">
+                    <img width="100%" src="./public/images/team-shape.svg" alt="">
+                </div>
+                <div class="card-content ">
+                    <h2>Sarah Jhonson</h2>
+                    <h5>Patissier</h5>
+                    <p>Quo esse repellendus quia id. Est eum et accusantium pariatur fugit nihil minima suscipit
+                        corporis. Voluptate sed quas
+                        reiciendis animi neque sapiente.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img chef3">
+                    <img width="100%" src="./public/images/team-shape.svg" alt="">
+                </div>
+                <div class="card-content">
+                    <h2>William Anderson</h2>
+                    <h5>Cook</h5>
+                    <p>Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim
+                        aut architecto porro
+                        aspernatur molestiae modi.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="book-table">
+        <div class="book-title"> <h6 class="text-center ">Book A Table</h6>
+            <h1 class="text-center ">Book Your <span class="text-danger">Stay With Us</span> </h1></div>
+       
+    <div class="reservation-container">
+        <div class="reservation-image">
+            <img src="./public/images/reservation.jpg" alt="Table setting with food" >
+        </div>
+        <div class="form-container">
+                <div class="form-one">
+                    <input type="text" placeholder="Your Name">
+                    <input type="email" placeholder="Your Email">
+                    <input type="tel" placeholder="Your Phone">
+                </div>
+                <div class="form-two">
+                    <input type="text" placeholder="jj/mm/aaaa">
+                    <input type="time" placeholder="--:--">
+                    <input type="number" placeholder="# of people">
+                </div>
+                <textarea placeholder="Message"></textarea>
+                <button   type="submit">Book a Table</button>
+        </div>
+    </div>
+    </section>
+
+    <!--gallery-->
+    <!--contact-->
+    <section class="contactUs" id="contact">
+        <div class="contact-title"></div>
+        <h6 class="text-center pt-5">Contacts</h6>
+        <h1 class="text-center pt-3 pb-4 h1test">Need Help? <span class="text-danger"> Contact Us</span> </h1>
     
-   
+        <div class="container ratio ratio-21x9 ">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.058437467203!2d-7.5338517!3d33.6037882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7cdb2f812837f%3A0xbbcfc74fbc11b2d9!2sLionsGeek!5e0!3m2!1sen!2sma!4v1723761401219!5m2!1sen!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div> <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <div class="d-flex align-items-center p-3 border rounded bg-light">
+                        <div class="me-3">
+                            <i class="bi bi-geo-alt-fill text-danger fs-3"></i>
+                        </div>
+                        <div>
+                            <h5 class="mb-0">Address</h5>
+                            <p class="mb-0">A108 Adam Street, New York, NY 535022</p>
+                        </div>
+                    </div>
+                </div>
+
+                       
+          
+                <div class="col-md-6 mb-3">
+                    <div class="d-flex align-items-center p-3 border rounded bg-light">
+                        <div class="me-3">
+                            <i class="bi bi-telephone-fill text-danger fs-3"></i>
+                        </div>
+                        <div>
+                            <h5 class="mb-0">Call Us</h5>
+                            <p class="mb-0">+1 5589 55488 55</p>
+                        </div>
+                    </div>
+                </div>
+    
+                
+                <div class="col-md-6 mb-3">
+                    <div class="d-flex align-items-center p-3 border rounded bg-light">
+                        <div class="me-3">
+                            <i class="bi bi-envelope-fill text-danger fs-3"></i>
+                        </div>
+                        <div>
+                            <h5 class="mb-0">Email Us</h5>
+                            <p class="mb-0">info@example.com</p>
+                        </div>
+                    </div>
+                </div>
+    <div class="container">    <div class="col-md-6 mb-3">
+        <div class="d-flex align-items-center p-3 border rounded bg-light">
+            <div class="me-3">
+                <i class="bi bi-clock-fill text-danger fs-3"></i>
+            </div>
+            <div>
+                <h5 class="mb-0">Opening Hours</h5>
+                <p class="mb-0"><strong>Mon-Sat:</strong> 11AM - 23PM; <strong>Sunday:</strong> Closed</p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>  <div class="row">
+<div class="col-12">
+    <form>
+        <div class="mb-3 row">
+            <div class="col-md-6">
+                <input type="text" class="form-control" placeholder="Your Name">
+            </div>
+            <div class="col-md-6">
+                <input type="email" class="form-control" placeholder="Your Email">
+            </div>
+        </div>
+        <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Subject">
+        </div>
+        <div class="mb-3">
+            <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-danger btn-lg mx-auto d-block mb-5 ">Send Message</button>
+    </form>
+</div>
+</div></div>
+                
+             </section>
+
+    <!--footer-->
+    <footer class="footer">
+        <div class="parent">
+            <div class="div1">
+                <h3><i class="fa-solid fa-location-dot"></i> Address</h3>
+                <p> A108 Adam Street
+                    <br>
+                    New York, NY 535022
+                </p>
+            </div>
+            <div class="div1">
+                <h3><i class="fa-solid fa-phone-flip"></i> CONTACT</h3>
+                <p> A108 Adam Street
+                    <br>
+                    New York, NY 535022
+                </p>
+            </div>
+            <div class="div1">
+                <h3><i class="fa-regular fa-clock"></i> Open hours</h3>
+                <p> A108 Adam Street
+                    <br>
+                    New York, NY 535022
+                </p>
+            </div>
+            <div class="div1">
+                <h3> Follow us</h3>
+                <p>
+                    
+                </p>
+            </div>
+        </div>
+        <div class="end-footer">
+            <p>© Copyright<span>Yummy</span> All Rights Reserved</p>
+            <br>
+            <p class="end">Designed by <a href="#">BootstrapMade</a></p>
+        </div>
+
+    </footer>
+
+
 
 
 
